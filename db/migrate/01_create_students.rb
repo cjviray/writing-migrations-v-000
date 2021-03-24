@@ -1,9 +1,9 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
   
   def change
-    create_table :
+    create_table :students 
     t.string :name
-    t.string :
+  
   end 
   
 end
